@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="sc.js"> -->
+    <title>Document</title>
+    <script>
+    function mouseOver1(){
+        document.getElementById("hey").innerHTML = "AboutMe";
+    }  
+    function mouseLeave1(){
+        document.getElementById("hey").innerHTML = "Hey! I'm";
+    }  
+    function mouseOver2(){
+        document.getElementById("first").innerHTML = "Work";
+    }
+    function mouseLeave2(){
+        document.getElementById("first").innerHTML = "Yagnik";
+    }
+    function mouseOver3(){
+        document.getElementById("second").innerHTML = "Contact";
+    }
+    function mouseLeave3(){
+        document.getElementById("second").innerHTML = "Vamja";
+    }
+    </script>
+
+</head>
+<body>
+   
+    <div class="name">"
+        <p id="hey" onmouseover="mouseOver1(this)" onmouseleave="mouseLeave1(this)">Hey! I'm</p>
+        <p id="first" onmouseover="mouseOver2(this)" onmouseleave="mouseLeave2(this)">Yagnik</p>
+        <p id="second" onmouseove="mouseOver3(this)" onmouseleave="mouseLeave3(this)">Vamja</p>
+    </div>
+
+    
+</body>
+</html>
