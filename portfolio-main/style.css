@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1{
+    font-size: 5.625rem; /*100%=16px=1em -- 90/16=5.625*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-anchor: start;
+}
+
+p{
+    line-height: 1.5;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.top-container{
+    /* background-color: aquamarine; */
+    height: auto;
+    background-image: url("https://www.pexels.com/photo/1631677/download/") ;
+    background-size: cover;
+    padding-bottom: 10rem;
+
+}
+
+.name{
+    color: aliceblue;
+    font-size: 100px;
+    padding: 150px 0 0 150px;
+}
+
+p{     
+    width: 400px;
+    font-size: 2.5rem;
+    color: black;
+    transition: 0.5s;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Belanosima', sans-serif;
+    
+}
+
+
+p:hover{
+    
+    color: black;
+    transform: translate(10px);
+}
+
+#second{
+    color: #D2D1CC;
+}
+#hey{
+    color: #1D6695;
+}
+
+#navbar {
+    /* background-color: #333;  */
+    backdrop-filter: blur(5px);
+    margin-top: 8px;
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    /* top: 0px;
+    width: 1333px; */
+}
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    /* font-size: larger; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration:double;
+  }
+  
+  #navbar a:hover {
+    background-color: black;
+    color: orange;
+  }
+
+#navbar img{
+    width: 40px;
+    border-radius: 100%;
+    float: right;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+}
+/* .About{
+    width: 200px;
+    
+} */
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.yv-image{
+    width: 180px;
+    height: 180px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    border-image-width: 25%;
+}
+
+.comp-images{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-images{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.code-skill-description{
+    clear: left;
+}
+
+.chilli-skill-description{
+    clear: right;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 40px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
